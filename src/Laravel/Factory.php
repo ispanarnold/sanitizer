@@ -11,6 +11,7 @@ class Factory
 {
     /**
      *  List of custom filters.
+     *
      *  @var array
      */
     protected $customFilters;
@@ -44,8 +45,9 @@ class Factory
      *
      *  @param  string  $name       Name of the filter
      *  @param  mixed   $extension  Either the full class name of a Filter class implementing the Filter contract, or a Closure.
-     *  @throws InvalidArgumentException
      *  @return void
+     *
+     *  @throws InvalidArgumentException
      */
     public function extend($name, $customFilter)
     {

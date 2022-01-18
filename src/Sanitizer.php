@@ -12,18 +12,21 @@ class Sanitizer
 {
     /**
      *  Data to sanitize.
+     *
      *  @var array
      */
     protected $data;
 
     /**
      *  Filters to apply.
+     *
      *  @var array
      */
     protected $rules;
 
     /**
      *  Available filters as $name => $classPath.
+     *
      *  @var array
      */
     protected $filters = [
